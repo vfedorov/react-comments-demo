@@ -1,0 +1,73 @@
+.container{
+    height: 100%;
+}
+
+.create{
+    width: 100%;
+    margin: 20px 0;
+    border: 1px solid black;
+    background-color: #EEE;
+}
+.create h2{
+    text-align: center;
+}
+.create textarea{
+    min-height: 50px;
+}
+.create form{
+    padding: 0 20px 20px 20px;
+}
+
+.create .text-danger{
+    color: red;
+}
+
+.comments{
+    min-height: 800px;
+    overflow-y: auto;
+}
+.comment{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px 0;
+}
+.id{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 8pt;
+    color: gray;
+}
+.user{
+    margin-right: 10px;
+    display: block;
+    float: left;
+}
+.label{
+    float: left;
+    width: 50px;
+    color: gray;
+}
+.input{
+    overflow: hidden;
+    display: block;
+    padding-right: 10px;
+}
+.comment input{
+    border: none;
+    font-size: 11pt;
+    font-style: italic;
+}
+input, textarea{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.loading{
+    height: 100px;
+    margin: 30px;
+}

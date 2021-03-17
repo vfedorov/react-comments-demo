@@ -1,0 +1,18 @@
+.app {
+  max-width: 600px;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, 0);
+}
+
+@media only screen and (max-width: 600px) {
+  .app {
+    position: inherit;
+    left: 0;
+    margin: 5px;
+    transform: none;
+  }
+}
+
